@@ -69,7 +69,8 @@ The weather dataset is split into 11 folders, one for each class, with each name
 
 Our original dataset folder structure will look like this.
 
-![filesssnip](https://github.com/ACM40960/project-sarveshsn/assets/93898181/58f280d9-026f-4d17-af6d-12efcb32e78e)
+![1](https://github.com/ACM40960/project-Neha-0994/assets/118282077/a08711bb-4409-417a-a2db-dff84416a806)
+
 
 Inside these folder contains images of that particular weather. For example, lightning folder will contain below images.
 
@@ -82,7 +83,8 @@ We must split the dataset into train, validation and test prior training the mod
 
 Running file Data_preprocessing.R will split the folders into train, test and validation folder. Our new dataset will look like this.
 
-![filesssnip2](https://github.com/ACM40960/project-sarveshsn/assets/93898181/cf0f2425-6036-485f-90eb-3a2c2aa67edd)
+
+![2](https://github.com/ACM40960/project-Neha-0994/assets/118282077/729090ff-88c0-4f39-ae27-c901d4157ce4)
 
 
 ## CNN Model
@@ -95,7 +97,8 @@ Image classifier is built using Convolutional Neural Network (CNN). We have buil
 
 •	Hyperparameters: Learning rate -0.0001 using optimizer - RMSProp
 
-![Model1](https://github.com/ACM40960/project-sarveshsn/assets/93898181/d0cdb497-7e19-44fe-b9f5-3cba198e6e3e)
+![3](https://github.com/ACM40960/project-Neha-0994/assets/118282077/337fa808-932b-4fc1-b6a7-44443d240e0b)
+
 
 ### CNN Model 2
 
@@ -103,7 +106,8 @@ Image classifier is built using Convolutional Neural Network (CNN). We have buil
 
 •	Hyperparameters: Learning Rate: 0.001 (using Adam optimizer).	Batch normalization applied after each convolutional and dense layer. Dropout: 0.25 applied after each max-pooling layer and 0.5 after the first dense layer.
 
-![Model2](https://github.com/ACM40960/project-sarveshsn/assets/93898181/c843c5b1-88d1-4648-a2f9-866fa65545cb)
+![4](https://github.com/ACM40960/project-Neha-0994/assets/118282077/de22f32a-0f15-42e7-b142-270547f2cef5)
+
 
 ### CNN Model 3 
 
@@ -136,11 +140,13 @@ Our primary focus lies in determining the most effective Convolutional Neural Ne
 
 Upon conducting a comprehensive comparative study involving three distinct models, we have derived insightful results. The outcomes of this comparative study are visually presented as follows:
 
-![comp study](https://github.com/ACM40960/project-sarveshsn/assets/93898181/efc34736-eb6b-4678-8f7c-255bc375f9c1)
+![6](https://github.com/ACM40960/project-Neha-0994/assets/118282077/6fe96ed0-acbc-45f6-9c65-66f0b34c9af2)
+
 
 Furthermore, to delve deeper into the evaluation of our most promising model, Model 2, we scrutinized its performance in classifying the 11 distinct classes. This evaluation encompassed an in-depth analysis of performance metrics for each individual class, depicted as follows:
 
-![Best Model](https://github.com/ACM40960/project-sarveshsn/assets/93898181/5eae6588-3cbf-42a2-9840-170bd84459e4)
+![5](https://github.com/ACM40960/project-Neha-0994/assets/118282077/d3b59605-e050-4e34-b6d7-6b7842b66d28)
+
 
 ### Inference - 
 
